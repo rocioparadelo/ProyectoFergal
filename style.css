@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.contenedor{
+    width: 80%;
+    max-width: 1320px;
+}
+header, section, footer{
+    display: flex;
+    justify-content: center;
+} 
+header{
+    padding-top: 30px;
+    padding-bottom:100px;
+}
+#header.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    align-items: center;
+}
+#contacto1 ul{
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(234, 185, 8) ;
+} 
+#contacto1{
+    width: 100%;
+}
+
+nav div ul{
+    background-size: contain;
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav div ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+nav div ul li a:hover{
+    color: rgb(234, 185, 8);
+}
+
+.caja{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/galpon.jpg);
+    background: cover;
+    background-position:center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.titulo{
+    text-align: center;
+    width: 70%;
+    font-size:x-large;
+}
+main section div div p{
+    background-color:rgb(196, 192, 185);
+    border-radius: 5px;
+    width: 45%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    background-color: rgb(234, 185, 8);
+    width: 20%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: x-large;
+}
+body {font-family: "Roboto", sans-serif;}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: yellow;
+    height: auto;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+hr{
+    border: 1px rgb(234, 185, 8) solid;
+};
+
+h1{
+    background-color: rgb(234, 185, 8);
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    display: inline-block;
+}
+a:link{
+    color: black;
+} 
+a:visited{
+    color: black;
+}
+button{
+    border-color:none;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(234, 185, 8);
+    width:auto;
+    width: 100%;
+    height: 150%;
+    display: flex;
+    justify-content:space-around
+}
+
+#servicios .contenedor{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#servicio{
+    background-color: rgb(196, 192, 185);
+    border-radius: 5px;
+    width: 360px;
+    height: 360px;
+    margin: 50px;
+    justify-content: center;
+}
+#servicio h2{
+    background-color:rgb(234, 185, 8);
+    border-radius: 5px;
+    justify-content: center;
+    padding: 0%;
+}
+
+#imageness{
+    justify-content:space-between;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.imagenes{
+    text-align: center;
+}
+#nosotros{
+    justify-content: center;
+}
+#lista li{
+    list-style: none;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+#lista2 li{
+    list-style: none;
+    text-align: start;
+}
+footer h2{
+    text-align: start;
+    margin: 3%;
+}
+#lista{
+    display: flex;
+    text-align: start;
+}
+#formulario{
+    display: flex;
+    ;
+}
+form >div{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 400px;
+}
+form button{
+    margin-top: 20px;
+}
+#redes{
+    float: right;
+    text-align: end;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.submenu{
+    display: none;
+}
+nav div ul li:hover .submenu{
+    position: absolute;
+    display: block;
+}
+.submenu li{
+    margin: 0;
+    padding-bottom: 10px;
+}
+footer div h2{
+    padding-top: 0%;
+}
